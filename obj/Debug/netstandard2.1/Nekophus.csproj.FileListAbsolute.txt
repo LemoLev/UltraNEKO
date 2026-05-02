@@ -1,0 +1,15 @@
+L:\VisualStudioSolutions\Nekophus\bin\Debug\netstandard2.1\Assembly-CSharp.dll
+L:\VisualStudioSolutions\Nekophus\bin\Debug\netstandard2.1\Unity.Addressables.dll
+L:\VisualStudioSolutions\Nekophus\bin\Debug\netstandard2.1\Unity.ResourceManager.dll
+L:\VisualStudioSolutions\Nekophus\obj\Debug\netstandard2.1\Nekophus.csproj.AssemblyReference.cache
+L:\VisualStudioSolutions\Nekophus\obj\Debug\netstandard2.1\MyPluginInfo.cs
+L:\VisualStudioSolutions\Nekophus\obj\Debug\netstandard2.1\Nekophus.GeneratedMSBuildEditorConfig.editorconfig
+L:\VisualStudioSolutions\Nekophus\obj\Debug\netstandard2.1\Nekophus.AssemblyInfoInputs.cache
+L:\VisualStudioSolutions\Nekophus\obj\Debug\netstandard2.1\Nekophus.AssemblyInfo.cs
+L:\VisualStudioSolutions\Nekophus\obj\Debug\netstandard2.1\Nekophus.csproj.CoreCompileInputs.cache
+L:\VisualStudioSolutions\Nekophus\obj\Debug\netstandard2.1\Nekophus.csproj.Up2Date
+L:\VisualStudioSolutions\Nekophus\bin\Debug\netstandard2.1\ULTRANEKO.deps.json
+L:\VisualStudioSolutions\Nekophus\bin\Debug\netstandard2.1\ULTRANEKO.dll
+L:\VisualStudioSolutions\Nekophus\bin\Debug\netstandard2.1\ULTRANEKO.pdb
+L:\VisualStudioSolutions\Nekophus\obj\Debug\netstandard2.1\ULTRANEKO.dll
+L:\VisualStudioSolutions\Nekophus\obj\Debug\netstandard2.1\ULTRANEKO.pdb
