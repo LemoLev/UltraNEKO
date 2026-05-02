@@ -1,2 +1,8 @@
-# UltraNEKO
-ULTRAKILL mod. Adds cat ears to ALL enemies (including V1)
+# ULTRANEKO
+
+Makes everyone a femboy. (AKA adds cat ears to absolutely every single enemy and the player)
+
+
+
+
+<sup><sub>Have a nice playtime experience, mrow~!</sup></sub>
