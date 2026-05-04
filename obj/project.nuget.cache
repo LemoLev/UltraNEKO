@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "g6gQ5bveNe8=",
+  "dgSpecHash": "eX1zZD7g0F0=",
   "success": true,
-  "projectFilePath": "L:\\VisualStudioSolutions\\Nekophus\\Nekophus.csproj",
+  "projectFilePath": "l:\\VisualStudioSolutions\\UltraNEKO\\Nekophus.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lev\\.nuget\\packages\\bepinex.analyzers\\1.0.8\\bepinex.analyzers.1.0.8.nupkg.sha512",
     "C:\\Users\\Lev\\.nuget\\packages\\bepinex.baselib\\5.4.20\\bepinex.baselib.5.4.20.nupkg.sha512",

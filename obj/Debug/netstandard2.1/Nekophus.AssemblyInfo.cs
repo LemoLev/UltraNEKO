@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ULTRANEKO")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.1.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.1+7c72d816b4833df3d80bee8525e6b054e3a4f8ce")]
 [assembly: System.Reflection.AssemblyProductAttribute("UltraNEKO")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ULTRANEKO")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.1.0")]

@@ -12,20 +12,7 @@ namespace ULTRANEKO
     {
 
         internal static new ManualLogSource Logger;
-        public static AssetBundle ab;
-        public static Transform FindChildRecursive(Transform parent, string name)
-        {
-            foreach (Transform child in parent)
-            {
-                if (child.name == name)
-                    return child;
-
-                Transform result = FindChildRecursive(child, name);
-                if (result != null)
-                    return result;
-            }
-            return null;
-        }
+        public static GameObject ears;
 
         private void LoadEmbeddedAssetBundle()
         {
@@ -43,7 +30,8 @@ namespace ULTRANEKO
             byte[] buffer = new byte[stream.Length];
             stream.Read(buffer, 0, buffer.Length);
 
-            ab = AssetBundle.LoadFromMemory(buffer);
+            AssetBundle ab = AssetBundle.LoadFromMemory(buffer);
+            ears = ab.LoadAsset<GameObject>("necoears");
         }
         private void Awake()
         {
@@ -63,17 +51,12 @@ namespace ULTRANEKO
         public static void AttachEars(SeasonalHats __instance)
         {
             Plugin.Logger.LogInfo("Mrr~ X3");
-            if (!__instance.transform.root.TryGetComponent<NewMovement>(out _)) {
-                Plugin.Logger.LogInfo("Mrow!! o(>W<)o");
-                Transform easter_ref = __instance.transform.Find("Easter");
-                Transform ears = GameObject.Instantiate(Plugin.ab.LoadAsset<GameObject>("necoears"), __instance.transform).transform;
-                if (!__instance.transform.root.TryGetComponent<PlatformerMovement>(out _))
-                    ears.localPosition = easter_ref.localPosition;
-                else
-                    ears.localPosition = new Vector3(-0f,  0.2f, -0.25f);
-                ears.localScale = easter_ref.localScale;
-                ears.localRotation = easter_ref.localRotation;
-            }
+            Transform easter_ref = __instance.transform.Find("Easter");
+            Transform ears = GameObject.Instantiate(Plugin.ears, __instance.transform).transform;
+            ears.localPosition = easter_ref.localPosition;
+            ears.localScale = easter_ref.localScale;
+            ears.localRotation = easter_ref.localRotation;
+            ears.GetChild(0).gameObject.layer = __instance.gameObject.layer;
         }
     }
 }

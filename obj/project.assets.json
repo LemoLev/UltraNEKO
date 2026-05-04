@@ -2689,11 +2689,11 @@
   "project": {
     "version": "1.0.1",
     "restore": {
-      "projectUniqueName": "L:\\VisualStudioSolutions\\Nekophus\\Nekophus.csproj",
+      "projectUniqueName": "l:\\VisualStudioSolutions\\UltraNEKO\\Nekophus.csproj",
       "projectName": "ULTRANEKO",
-      "projectPath": "L:\\VisualStudioSolutions\\Nekophus\\Nekophus.csproj",
+      "projectPath": "l:\\VisualStudioSolutions\\UltraNEKO\\Nekophus.csproj",
       "packagesPath": "C:\\Users\\Lev\\.nuget\\packages\\",
-      "outputPath": "L:\\VisualStudioSolutions\\Nekophus\\obj\\",
+      "outputPath": "l:\\VisualStudioSolutions\\UltraNEKO\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Lev\\AppData\\Roaming\\NuGet\\NuGet.Config",
